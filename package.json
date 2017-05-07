@@ -1,0 +1,16 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "description": "for checking the dockerizing things",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start":"node server.js"
+  },
+  "author": "Nikhil Kumar",
+  "license": "MIT",
+
+"dependencies": {
+  "express": "3.2.4"
+}
+}
