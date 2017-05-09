@@ -18,7 +18,7 @@
 var express = require('express');
 
 // Constants
-var port = process.env.PORT || 8081;
+var PORT = process.env.PORT || 8081;
 
 // App
 var app = express();
