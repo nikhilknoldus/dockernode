@@ -7,7 +7,7 @@
     "test": "npm test",
     "start":"node server.js"
   },
-  "author": "Nikhil Kumar",
+  "author": "Nikhil",
   "license": "MIT",
 
 "dependencies": {
