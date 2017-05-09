@@ -1,0 +1,5 @@
+{
+  "name": "nodejs-docker",
+  "description": "A simple docker heroku example for nodejs",
+  "addons": []
+}
