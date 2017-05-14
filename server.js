@@ -23,7 +23,7 @@ var PORT = process.env.PORT || 8081;
 // App
 var app = express();
 app.get('/', function (req, res){
-  res.send('Welcome to Nodejs application, over codeship and heroku, in process for codeDeploy for Aws.');
+  res.send('Welcome to Nodejs application, over codeship and heroku, in process for codeDeploy for Aws. Such a complex task :p');
 });
 
 app.listen(PORT);
