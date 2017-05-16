@@ -1,4 +1,4 @@
 source /home/ec2-user/.bash_profile
-nvm install 0.10
-yum install -y npm
-npm install
+sudo nvm install 0.10
+sudo yum install -y npm
+sudo npm install
