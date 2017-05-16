@@ -14,7 +14,7 @@ permissions:
 hooks:
 
 BeforeInstall:
-    - location: script/install
+    - location: script/install_npm
       timeout: 300
       runas: root
     - location: scripts/start_server
