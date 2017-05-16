@@ -13,10 +13,11 @@ permissions:
 
 hooks:
 
-BeforeInstall:
+Install:
     - location: script/install_npm
       timeout: 300
       runas: root
+ApplicationStart:
     - location: script/start_server
       timeout: 300
       runas: roo
