@@ -10,10 +10,10 @@ permissions:
      group: ec2-user
 hooks:
   Install:
-    - location: script/install_npm
-      timeout: 300
+    - location: script/install_npm.sh
+      timeout: 15000
       runas: ec2-user
   ApplicationStart:
-    - location: script/start_server
-      timeout: 300
+    - location: script/start_server.sh
+      timeout: 15000
       runas: ec2-user
