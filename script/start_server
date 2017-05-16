@@ -1,1 +1,1 @@
-sudo node /home/ec2-user/server.js
+sudo forever start /home/ec2-user/server.js
