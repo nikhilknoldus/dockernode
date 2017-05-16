@@ -6,11 +6,6 @@
   "scripts": {
     "test": "npm test",
     "start":"node server.js"
-  },
-  "author": "Nikhil",
-  "license": "MIT",
+  }
 
-"dependencies": {
-  "express": "3.2.4"
-}
 }

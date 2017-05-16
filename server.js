@@ -18,13 +18,13 @@
 var express = require('express');
 
 // Constants
-var PORT = process.env.PORT || 8081;
+var PORT = process.env.PORT || 8085;
 
 // App
 var app = express();
 app.get('/', function (req, res){
-  res.send('Welcome to Nodejs application, over codeship and heroku, in process for codeDeploy for Aws. Such a complex task :p');
+  res.send('Welcome to Nodejs');
 });
 
 app.listen(PORT);
-console.log("application started at 8081");
+console.log("application started at 8085");
