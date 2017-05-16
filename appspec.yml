@@ -7,7 +7,7 @@ permissions:
    - object: /
      pattern: "**"
      owner: ec2-user
-     group: ec2-user wheel
+     group: ec2-user
 hooks:
   Install:
     - location: script/install_npm.sh
