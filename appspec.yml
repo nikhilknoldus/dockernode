@@ -14,6 +14,6 @@ hooks:
       timeout: 15000
       runas: root
   ApplicationStart:
-    - location: start.sh
+    - location: /home/ec2-user/start.sh
       timeout: 15000
       runas: root
