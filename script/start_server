@@ -1,7 +1,1 @@
-source /home/ec2-user/.bash_profile
-sudo yum -y install nodejs npm --enablerepo=epel
-sudo nvm install 0.10
-sudo yum install -y npm
-cd ../
-sudo npm install
 node /home/ec2-user/server.js
