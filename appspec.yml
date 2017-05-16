@@ -17,6 +17,6 @@ BeforeInstall:
     - location: script/install_npm
       timeout: 300
       runas: root
-    - location: scripts/start_server
+    - location: script/start_server
       timeout: 300
       runas: roo
