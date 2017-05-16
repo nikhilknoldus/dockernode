@@ -1,2 +1,1 @@
-cd ../
-sudo node /home/ec2-user/server.js
+node /home/ec2-user/server.js

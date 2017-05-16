@@ -1,6 +1,6 @@
 source /home/ec2-user/.bash_profile
-sudo yum -y install nodejs npm --enablerepo=epel
+sudo apt-get -y install nodejs npm --enablerepo=epel
 sudo nvm install 0.10
-sudo yum install -y npm
+sudo apt-get install -y npm
 cd ../
 sudo npm install
