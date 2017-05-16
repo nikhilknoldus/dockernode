@@ -1,4 +1,1 @@
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
-. ~/.nvm/nvm.sh
-nvm install 6.2.0
-sudo node /home/ec2-user/server.js
+sudo node /home/ec2-user/server.js > /dev/null 2> /dev/null < /dev/null &
