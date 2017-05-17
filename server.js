@@ -23,7 +23,7 @@ var PORT = process.env.PORT || 8085;
 // App
 var app = express();
 app.get('/', function (req, res){
-  res.send('Welcome to Nodejs');
+  res.send('NodeJs + CodeShip + CodeDeploy');
 });
 
 app.listen(PORT);
