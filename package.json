@@ -6,6 +6,9 @@
   "scripts": {
     "test": "npm test",
     "start":"node server.js"
+  },
+  
+  "dependencies": {
+    "express": ">= 1.2.0"
   }
-
 }
